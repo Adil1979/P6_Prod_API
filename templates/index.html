@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tag Recommendation Engine </title>
+  </head>
+
+  <body style="background-color: rgb(150,220,250)">
+  <header>
+      <div class="wrapper">
+  
+          <h1>Tag Recommendation Engine <span class="orange">.</span></h1>
+          <p style='font-size:23px'>This engine will help you find the most relevant tags for your IT questions</p>
+          
+      </div>
+  </header>
+  
+  <form action="/tag_recommendation" method='POST'> <!-- Send the data to the web server to be processed-->  
+    
+      <div>
+          
+          <label class="label-grand" for='question'> IT Question:</label><br>
+          <textarea id='question' name='question' cols="50" rows="20"></textarea>
+          
+      <div>
+      <p> <input type ="submit" value="tag_recommendation"/> </p>
+  
+  </form>      
+      
+  </body>
+</html>
+
