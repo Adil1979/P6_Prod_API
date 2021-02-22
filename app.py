@@ -21,7 +21,7 @@ from flask import Flask, render_template, request
 from functions import preprocessing, tokenize
 from nltk.corpus import stopwords
 stop_words = set(stopwords.words('english'))
-#nltk.download('all')
+nltk.download('all')
 nltk.download('wordnet')
 
 
